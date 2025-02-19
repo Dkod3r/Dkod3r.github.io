@@ -76,7 +76,8 @@ p {
     position: static;
     top: 50px;
     font-size: large;
-    font-style: italic;
+    font-style: normal;
+	color: white;
 }
 
 abbr[title],
