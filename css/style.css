@@ -52,8 +52,9 @@ font-size: 17px;
     margin-left: 3px;
 }
 .navtext {
-float: right;
+text-align: right;
 color: #ffffff;
+font-size: 16px;
 }
 
 .imglink {
@@ -107,7 +108,7 @@ body {
 	/*background-color: #FBF9FC;*/
 }
 
-/* Product Section */
+/* main_content Section */
 .text_desc {
 width: 90%;
 text-align: center;
@@ -142,7 +143,7 @@ margin-right: 20px;
   
 }
 
-.product {
+.main_content {
     gap: 20px;
     padding-bottom: 10px;
 }
@@ -161,7 +162,7 @@ margin-right: 20px;
     opacity: 1;
 }
 
-.product .thumbnail h4 {
+.main_content .thumbnail h4 {
 margin-top: 5px;
 margin-bottom: 5px;
 color: #52BAD5;
@@ -171,7 +172,7 @@ padding-right: 20px;
 font-size: 24px;
 opacity: 1;
 }
-.product .thumbnail p .text_desc {
+.main_content .thumbnail p .text_desc {
     margin: 0;
     color: #FFFFFF;
     text-align: center;
@@ -179,7 +180,7 @@ opacity: 1;
     opacity: 1;
 }
 
-.product .thumbnail .text_tag {
+.main_content .thumbnail .text_tag {
 color: #FFFFFF;
 padding-bottom: 4px;
 padding-top: 4px;
@@ -310,6 +311,10 @@ letter-spacing: 2px;
 border-top-width: 2px;
 }
 
+.copyright p {
+	margin-top: 0px;
+}
+
 .background_img {
 background-image: url("../img/epic_background2.png");
 opacity: 1;
@@ -378,7 +383,7 @@ header p{
 }
 
 @media (max-width:550px){
-		.product {
+		.main_content {
 		display: none;
 	}	
 }
