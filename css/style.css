@@ -106,6 +106,8 @@ body h1, body h2, body h3 {
 body {
 	font-family: "Trebuchet MS", "Lucida Grande", "Tahoma", sans-serif;
 	/*background-color: #FBF9FC;*/
+	display: flex;
+	flex-direction: column;
 }
 
 /* main_content Section */
@@ -291,24 +293,29 @@ font-weight: bolder;
 	display: none;
 }
 
-footer {
-	display:block;
+.footer {
+	/*display:flex;*/
+	flex-shrink: 0;
 	width:auto;
-	background-color: #A8A4CE;
-	padding-top: 15px;
-	padding-bottom: 30px;
+	background-color: #16246A;
+	padding-top: 5px;
+	padding-bottom: 10px;
 	font-family: "Trebuchet MS", "Lucida Grande", "Tahoma", sans-serif;
 }
 
+.content_position {
+	flex: 1 0 auto;
+}
+
 .copyright {
-text-align: center;
-padding-top: 6px;
-padding-bottom: 20px;
-background-color: #16246A;
-color: #FFFFFF;
-font-weight: lighter;
-letter-spacing: 2px;
-border-top-width: 2px;
+	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 20px;
+	/*background-color: #16246A;*/
+	color: #FFFFFF;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
 }
 
 .copyright p {
